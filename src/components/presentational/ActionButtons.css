@@ -1,0 +1,30 @@
+.btn-shadow {
+  display: block;
+  background-color: #5CCFBA;
+  width: 45%;
+  border-bottom: solid 2px #3E8F83;
+
+}
+
+.btn-shadow:nth-child(1) {
+  float: left;
+}
+
+.btn-shadow:nth-child(2) {
+  float: right;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #579F9A;
+  margin: 35px 0;
+}
+
+/* for spacing between the footer and the last hr */
+.action-btns hr {
+  clear: right;
+  position: relative;
+  top: 20px;
+}
